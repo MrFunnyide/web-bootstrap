@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#content {
+  position: relative;
+  bottom: 58px;
+}
+.masthead {
+  height: 60vh;
+  min-height: 500px;
+  background-image: url(../img/FDK\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
