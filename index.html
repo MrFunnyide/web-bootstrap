@@ -8,6 +8,8 @@
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
    <link rel="stylesheet" href="styles/style.css">
+   <!-- link animation -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
    <title>FDK UIN Suska Riau</title>
 </head>
 
@@ -69,7 +71,7 @@
       </div>
    </nav>
    <!--full image in header -->
-   <header class="masthead ">
+   <header class="masthead">
       <div class="container h-100">
          <div class="row h-100 align-items-center">
             <div class="col-12 text-center">
@@ -86,7 +88,7 @@
       </button>
    </div>
    <!-- content -->
-   <div id="content" class="container-fluid">
+   <div id="content" class="container-fluid" data-aos="fade-up-right">
       <div class="row justify-content-center" style=" gap: 4em">
          <!-- firs content -->
          <div class="col-xl-6 col-md-4" style="width: 26rem;">
@@ -100,7 +102,7 @@
                   natus voluptate voluptates?</p>
             </div>
             <div class="mt-5 effect-shadow" style="background-color: #D6D5A8;">
-               <h3 class="p-2 text-center">Misi</h3>
+               <h3 class=" p-2 text-center">Misi</h3>
                <br>
                <p class="px-5 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nostrum nesciunt
                   voluptates
@@ -164,7 +166,8 @@
       </div>
    </div>
    <!-- Sejarah -->
-   <div id="sejarah" class="p-5 mx-auto w-75 effect-shadow rounded" style="background-color: #D6D5A8;">
+   <div id="sejarah" class="p-5 mx-auto w-75 effect-shadow rounded" style="background-color: #D6D5A8;"
+      data-aos="fade-up-right">
       <div class="container-fluid">
          <div class="row d-flex justify-content-center">
             <div class="col-12 mx-auto text-center">
@@ -184,7 +187,7 @@
       </div>
    </div>
    <!-- Media Komunitas -->
-   <div id="Media" class="my-5 py-5">
+   <div id="Media" class="my-5 py-5" data-aos="fade-up-right">
       <div class="container-fluid">
          <div class="row d-flex justify-content-center">
             <div class="col-12 w-50 mx-auto text-center">
@@ -278,6 +281,15 @@
    <script defer src="https://use.fontawesome.com/releases/v6.1.2/js/all.js"
       integrity="sha384-11X1bEJVFeFtn94r1jlvSC7tlJkV2VJctorjswdLzqOJ6ZvYBSZQkaQVXG0R4Flt"
       crossorigin="anonymous"></script>
+
+   <!-- Animation  -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+      AOS.init({
+         duration: 2000,
+         once: true
+      });
+   </script>
 </body>
 
 </html>

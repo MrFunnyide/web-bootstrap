@@ -3,7 +3,7 @@ var myButton = document.getElementById("BtnTop");
 window.onscroll = function () {
   goToTop();
 };
-
+// ketika dari page atas di scroll kebawah sejauh jarak di bawah, maka button muncul
 function goToTop() {
   if (
     document.body.scrollTop > 300 ||
