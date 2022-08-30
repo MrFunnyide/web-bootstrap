@@ -12,25 +12,86 @@
 </head>
 
 <body>
+   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1B2430;">
+      <div class="container-fluid">
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" href="#content">Visi & Misi</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" href="#sejarah">Sejarah</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" href="#content">Program Studi</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" href="#Media">Media Komunitas</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                     data-bs-toggle="dropdown" aria-expanded="false">
+                     Layanan Administrasi Umum
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                     <li><a class="dropdown-item p-2"
+                           href="https://docs.google.com/forms/d/e/1FAIpQLSdDWywdhKOsR9VWRvpeAr0OB3Hw076XXKDJQladKR5rTzM3oA/viewform">Penerbitan
+                           KHS Hilang</a></li>
+                     <li><a class="dropdown-item p-2"
+                           href="https://docs.google.com/forms/d/e/1FAIpQLSc0vNJWumMEZMg0EIi209V70zPyX9fHjeZXFEtJIiypRDDzGg/viewform">Permohonan
+                           Peminjaman Fasilitas</a></li>
+                     <li><a class="dropdown-item p-2"
+                           href="https://docs.google.com/forms/d/e/1FAIpQLSen93TkdlLdub_RDkrkS8IU7CZ1KJLdLUUxSDH7hS9CTyBf2Q/viewform">Permohonan
+                           Penerbitan KTM</a></li>
+                     <li><a class="dropdown-item p-2"
+                           href="https://docs.google.com/forms/d/e/1FAIpQLSd-f9hOVF5hK78HsBNbPaZudzyhW0Y9xpwzt4EpIWgV-qLrVg/viewform">Permohonan
+                           Penerbitan SKAK, SKBB</a></li>
+                     <li><a class="dropdown-item p-2"
+                           href="https://docs.google.com/forms/d/e/1FAIpQLSd7ttiOl95nq1GYf7IO86WKdZYGyNuP7Sqi_HKk7GmHkTTS7Q/viewform">Permohonan
+                           Penginputan Nilai ke Iraise</a></li>
+                     <li><a class="dropdown-item p-2"
+                           href="https://docs.google.com/forms/d/e/1FAIpQLSfIFoaJcq0o9SipwRxmrBR0XlrJ8N0eH2mAJTrKB9iTXExI8A/viewform">Permohonan
+                           Dosen</a></li>
+                     <li><a class="dropdown-item p-2"
+                           href="https://docs.google.com/forms/d/e/1FAIpQLSdOxhdrGK26jBGgxMI5_vbDs30Uy6riLA1lYwCgW_GUQ8CT0A/viewform">Permohonan
+                           Mahasiswa</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
    <!--full image in header -->
    <header class="masthead ">
       <div class="container h-100">
          <div class="row h-100 align-items-center">
             <div class="col-12 text-center">
-               <h1 class="fw-semibold text-white display-1">Fakultas Dakwah dan Komunikasi</h1>
+               <h1 class="fw-semibold text-white typewriter">Fakultas Dakwah dan Komunikasi</h1>
                <br>
-               <p class="lead text-white display-6">BERSIH | TRANSPARAN | UNGGUL | ADAPTIF | HUMANIS</p>
+               <p class="lead text-white typewriter">BERSIH | TRANSPARAN | UNGGUL | ADAPTIF | HUMANIS</p>
             </div>
          </div>
       </div>
    </header>
+   <div class="position-relative">
+      <button onclick="topFunction()" id="BtnTop" title="Go To Top" class="btnTop">
+         <i class=" fa-solid fa-circle-arrow-up fa-2xl"></i>
+      </button>
+   </div>
    <!-- content -->
-   <div id="content" class="container">
-      <div class="row d-flex justify-content-center align-items-start" style=" gap: 4em">
+   <div id="content" class="container-fluid">
+      <div class="row justify-content-center" style=" gap: 4em">
          <!-- firs content -->
-         <div class="col-md-4">
-            <div class="bg-primary">
-               <h3 class="pt-3 text-center">VISI DAN MISI</h3>
+         <div class="col-xl-6 col-md-4" style="width: 26rem;">
+            <div class="text-white effect-shadow" style=" background-color: #816797;">
+               <h3 class="pt-3 text-center">Visi</h3>
                <br>
                <p class="px-5 pb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, velit
                   laboriosam.
@@ -38,126 +99,152 @@
                   Atque porro fugit delectus molestiae, iste ducimus ab iusto quia repellendus sit corporis quibusdam,
                   natus voluptate voluptates?</p>
             </div>
-            <div class="bg-secondary mt-5">
-               <h3 class="p-2 text-center">SEJARAH</h3>
+            <div class="mt-5 effect-shadow" style="background-color: #D6D5A8;">
+               <h3 class="p-2 text-center">Misi</h3>
                <br>
                <p class="px-5 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nostrum nesciunt
                   voluptates
                   dolor
                   doloremque reiciendis neque quasi repudiandae facilis architecto dicta perspiciatis totam, accusantium
-                  ducimus possimus ad pariatur facere velit.</p>
+                  ducimus possimus ad pariatur facere velit. <a href="#">load more</a></p>
             </div>
          </div>
-         <div class="col-md-4">
-            <div class="bg-white p-3">
-               <h3 class="text-center">PROGRAM STUDI</h3>
+         <div class="col-xl-6 col-md-4" style="width: 32rem;">
+            <div class="p-3" style="background-color: #f5eddc;">
+               <h3 class="text-center">Program Studi</h3>
             </div>
             <br>
-            <div>
-               <h5>Pengembangan Masyarakat Islam </h5>
-               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores quos, quam, nisi temporibus pariatur
-                  tenetur quisquam eos qui accusantium sapiente quibusdam aliquid, nobis amet officiis rem distinctio!
-                  Placeat, possimus rerum!</p>
-               <a href="#">load more</a>
-               <hr>
-            </div>
-            <div>
-               <h5>Pengembangan Masyarakat Islam </h5>
-               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores quos, quam, nisi temporibus pariatur
-                  tenetur
-                  quisquam eos qui accusantium sapiente quibusdam aliquid, nobis amet officiis rem distinctio! Placeat,
-                  possimus
-                  rerum!</p>
-               <a href="#">load more</a>
-               <hr>
-            </div>
-            <div>
-               <h5>Pengembangan Masyarakat Islam </h5>
-               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores quos, quam, nisi temporibus pariatur
-                  tenetur
-                  quisquam eos qui accusantium sapiente quibusdam aliquid, nobis amet officiis rem distinctio! Placeat,
-                  possimus
-                  rerum!</p>
-               <a href="#">load more</a>
-               <hr>
-            </div>
-            <div>
-               <h5>Pengembangan Masyarakat Islam </h5>
-               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores quos, quam, nisi temporibus pariatur
-                  tenetur quisquam eos qui accusantium sapiente quibusdam aliquid, nobis amet officiis rem distinctio!
-                  Placeat, possimus rerum!</p>
-               <a href="#">load more</a>
-               <hr>
+            <div class="ps-5">
+               <div>
+                  <h5>Pengembangan Masyarakat Islam </h5>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores quos, quam, nisi temporibus
+                     pariatur
+                     tenetur quisquam eos qui accusantium sapiente quibusdam aliquid, nobis amet officiis rem
+                     distinctio!
+                     Placeat, possimus rerum!</p>
+                  <a href="#">load more</a>
+                  <hr>
+               </div>
+               <div>
+                  <h5>Pengembangan Masyarakat Islam </h5>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores quos, quam, nisi temporibus
+                     pariatur
+                     tenetur
+                     quisquam eos qui accusantium sapiente quibusdam aliquid, nobis amet officiis rem distinctio!
+                     Placeat,
+                     possimus
+                     rerum!</p>
+                  <a href="#">load more</a>
+                  <hr>
+               </div>
+               <div>
+                  <h5>Pengembangan Masyarakat Islam </h5>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores quos, quam, nisi temporibus
+                     pariatur
+                     tenetur
+                     quisquam eos qui accusantium sapiente quibusdam aliquid, nobis amet officiis rem distinctio!
+                     Placeat,
+                     possimus
+                     rerum!</p>
+                  <a href="#">load more</a>
+                  <hr>
+               </div>
+               <div>
+                  <h5>Pengembangan Masyarakat Islam </h5>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores quos, quam, nisi temporibus
+                     pariatur
+                     tenetur quisquam eos qui accusantium sapiente quibusdam aliquid, nobis amet officiis rem
+                     distinctio!
+                     Placeat, possimus rerum!</p>
+                  <a href="#">load more</a>
+                  <hr>
+               </div>
             </div>
          </div>
       </div>
    </div>
-   <!-- galery -->
-   <div id="galery" class="mt-5 px-5" style="background-color: #D6D5A8;">
-      <h4 class=" text-center pt-3 pb-4">GALLERY</h4>
-      <div id="carouselExampleControls" class="carousel slide pb-5" data-bs-ride="carousel">
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-               <img src="./img/FDK 1.png" class="d-block w-100" alt="uin-suska">
-            </div>
-            <div class="carousel-item">
-               <img src="./img/FDK 1.png" class="d-block w-100" alt="uin-suska">
-            </div>
-            <div class="carousel-item">
-               <img src="./img/FDK 1.png" class="d-block w-100" alt="uin-suska">
+   <!-- Sejarah -->
+   <div id="sejarah" class="p-5 mx-auto w-75 effect-shadow rounded" style="background-color: #D6D5A8;">
+      <div class="container-fluid">
+         <div class="row d-flex justify-content-center">
+            <div class="col-12 mx-auto text-center">
+               <h3>Sejarah</h3>
+               <br>
+               <p class="lh-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsam ullam tempore
+                  mollitia a
+                  laboriosam animi, inventore omnis, veniam, architecto numquam aperiam repellendus tenetur natus in
+                  exercitationem ad accusantium qui? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+                  illum placeat quaerat temporibus voluptatibus ipsum veritatis, unde tempora laboriosam quis. Aliquam
+                  ad facere amet fugit voluptatum est dignissimos laboriosam veniam? Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Laudantium enim corporis non, architecto cum eum? Ea sequi deleniti,
+                  accusantium mollitia unde fugiat facilis sint? Quaerat ut hic provident dicta obcaecati.</p>
+               <a class="btn btn-outline-secondary mt-5" href="#" role="button">Load More</a>
             </div>
          </div>
-         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-         </button>
-         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-         </button>
       </div>
    </div>
-
    <!-- Media Komunitas -->
-   <div id="Media" class="my-5">
-      <h4 class="text-center">MEDIA KOMUNITAS</h4>
-
-      <!-- grid layout -->
-      <div class="row d-flex justify-content-around gap-2 m-5">
-         <div class="col-md-4 mb-5" style="background-color: #816797;">
-            <h4 class="p-2 text-center">SUSKA TV</h4>
-            <p class="px-5 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis non ea doloribus dolorum
-               earum
-               dignissimos voluptates qui eaque harum necessitatibus veritatis autem repellendus est quas dolore,
-               laboriosam explicabo magnam sed!</p>
+   <div id="Media" class="my-5 py-5">
+      <div class="container-fluid">
+         <div class="row d-flex justify-content-center">
+            <div class="col-12 w-50 mx-auto text-center">
+               <h3>Media Komunitas</h3>
+               <br>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat exercitationem molestiae
+                  voluptatibus,
+                  quaerat nisi, laudantium dignissimos voluptas nulla ratione, aperiam distinctio? Ex, aliquam corporis
+                  assumenda maiores similique eligendi doloremque ab?</p>
+            </div>
          </div>
-         <div class="col-md-4 mb-5" style="background-color: #816797;">
-            <h4 class="p-2 text-center">RADIO SUSKA 107.9 FM</h4>
-            <p class="px-5 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis non ea doloribus dolorum
-               earum
-               dignissimos voluptates qui eaque harum necessitatibus veritatis autem repellendus est quas dolore,
-               laboriosam explicabo magnam sed!</p>
-         </div>
-         <div class="col-md-4 mb-5" style="background-color:  #D6D5A8;">
-            <h4 class="p-2 text-center">KOMUNIKA</h4>
-            <p class="px-5 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis non ea doloribus dolorum
-               earum
-               dignissimos voluptates qui eaque harum necessitatibus veritatis autem repellendus est quas dolore,
-               laboriosam explicabo magnam sed!</p>
-         </div>
-         <div class="col-md-4 mb-5" style="background-color: #D6D5A8;">
-            <h4 class="p-2 text-center">GEMA DAKWAH</h4>
-            <p class="px-5 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis non ea doloribus dolorum
-               earum
-               dignissimos voluptates qui eaque harum necessitatibus veritatis autem repellendus est quas dolore,
-               laboriosam explicabo magnam sed!</p>
+         <!-- card bootstrap -->
+         <div class=" container-fluid my-5">
+            <div class="row d-flex justify-content-center gap-5">
+               <div class="card col-xl-3 col-md-6 col-sm-12 effect-shadow pt-3" style="width: 18rem;">
+                  <img src="./img/FDK 1.png" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                     <h5 class=" card-title">Suska Tv</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's
+                        content.</p>
+                  </div>
+               </div>
+               <div class="card col-xl-3 col-md-6 col-sm-12 effect-shadow pt-3" style="width: 18rem;">
+                  <img src="./img/FDK 1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class=" card-title text-center">Suska Tv</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's
+                        content.</p>
+                  </div>
+               </div>
+               <div class="card col-xl-3 col-md-6 col-sm-12 effect-shadow pt-3" style="width: 18rem;">
+                  <img src="./img/FDK 1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class=" card-title text-center">Suska Tv</h5>
+                     <p class=" card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's
+                        content.</p>
+                  </div>
+               </div>
+               <div class="card col-xl-3 col-md-6 col-sm-12 effect-shadow pt-3" style="width: 18rem;">
+                  <img src="./img/FDK 1.png" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                     <h5 class=" card-title">Suska Tv</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's
+                        content.</p>
+                  </div>
+               </div>
+            </div>
          </div>
       </div>
    </div>
    <!-- footer -->
-   <footer id="footer" class="py-5" style="background-color: #1B2430;">
+   <footer id=" footer" class="py-5" style="background-color: #1B2430;">
       <div class="container">
          <div class="row">
             <div class="col-4 p-3 text-white">
@@ -186,6 +273,7 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"></script>
 
+   <script src="js/index.js"></script>
    <!-- font awesome cdn -->
    <script defer src="https://use.fontawesome.com/releases/v6.1.2/js/all.js"
       integrity="sha384-11X1bEJVFeFtn94r1jlvSC7tlJkV2VJctorjswdLzqOJ6ZvYBSZQkaQVXG0R4Flt"
