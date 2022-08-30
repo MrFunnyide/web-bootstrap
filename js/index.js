@@ -14,7 +14,7 @@ function goToTop() {
     myButton.style.display = "none";
   }
 }
-
+// ketika di pencet tombol up nya, maka akan reset ke page paling atas
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
